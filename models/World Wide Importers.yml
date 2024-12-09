@@ -386,67 +386,67 @@ relationships:
 
 metrics:
 
-  - unique_name: m_Last_Stocktake_Quantity_sum
+  - unique_name: Last Stocktake Quantity
     folder: Stock
 
-  - unique_name: m_Order_Quantity_sum
+  - unique_name: Order Quantity
     folder: Orders
 
-  - unique_name: m_Order_Tax_Amount_sum
+  - unique_name: Order Tax Amount
     folder: Orders
 
-  - unique_name: m_Order_Total_Including_Tax_sum
+  - unique_name: Order Total Including Tax
     folder: Orders
 
-  - unique_name: m_Ordered_Outers_sum
+  - unique_name: Ordered Outers
     folder: Purchases
 
-  - unique_name: m_Outstanding_Balance_sum
+  - unique_name: Outstanding Balance
     folder: Transactions
 
   - unique_name: m_Profit_sum
     folder: Sales
 
-  - unique_name: m_Purchase_Ordered_Quantity_sum
+  - unique_name: Purchase Ordered Quantity
     folder: Purchases
 
-  - unique_name: m_Quantity_On_Hand_sum
+  - unique_name: Stock Quantity On Hand
     folder: Stock
 
-  - unique_name: m_Quantity_sum
+  - unique_name: Movement Quantity
     folder: Movement
 
-  - unique_name: m_Received_Outers_sum
+  - unique_name: Received Outers
     folder: Purchases
 
-  - unique_name: m_Sale_Quantity_sum
+  - unique_name: Sale Quantity
     folder: Sales
 
-  - unique_name: m_Sale_Tax_Amount_sum
+  - unique_name: Sale Tax Amount
     folder: Sales
 
-  - unique_name: m_Sale_Total_Excluding_Tax_sum
+  - unique_name: Sale Total Excluding Tax
     folder: Sales
 
-  - unique_name: m_Sale_Total_Including_Tax_sum
+  - unique_name: Sale Total Including Tax
     folder: Sales
 
-  - unique_name: m_Total_Chiller_Items_sum
+  - unique_name: Total Chiller Items
     folder: Sales
 
-  - unique_name: m_Total_Dry_Items_sum
+  - unique_name: Total Dry Items
     folder: Sales
 
-  - unique_name: m_Transaction_Tax_Amount_sum
+  - unique_name: Transaction Tax Amount
     folder: Transactions
 
-  - unique_name: m_Transaction_Total_Excluding_Tax_sum
+  - unique_name: Transaction Total Excluding Tax
     folder: Transactions
 
-  - unique_name: m_Transaction_Total_Including_Tax_sum
+  - unique_name: Transaction Total Including Tax
     folder: Transactions
 
-  - unique_name: Order_Total_Excluding_Tax_sum
+  - unique_name: Order Total Excluding Tax
     folder: Orders
 
   - unique_name: '% Profit'

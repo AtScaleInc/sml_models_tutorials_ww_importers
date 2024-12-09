@@ -1,8 +1,8 @@
-unique_name: m_Ordered_Outers_sum
+unique_name: Purchase Ordered Quantity
 object_type: metric
-label: Ordered Outers
+label: Purchase Ordered Quantity
 calculation_method: sum
 format: "#,##0"
 dataset: fact_purchase
-column: ordered_outers
+column: ordered_quantity
 unrelated_dimensions_handling: repeat

@@ -1,4 +1,4 @@
-unique_name: m_Total_Chiller_Items_sum
+unique_name: Total Chiller Items
 object_type: metric
 label: Total Chiller Items
 calculation_method: sum
