@@ -1,11 +1,11 @@
-unique_name: WW Employee
+unique_name: Employee
 object_type: dimension
 label: Employee
 type: standard
 
 hierarchies:
 
-  - unique_name: Employee Hierarchy
+  - unique_name: Employee
     label: Employee
     folder: Employees
     filter_empty: "yes"
@@ -16,8 +16,8 @@ hierarchies:
 
         secondary_attributes:
 
-          - unique_name: d_Is_Salesperson
-            label: Is Sales Person
+          - unique_name: Is Salesperson
+            label: Is Salesperson
             folder: Employees
             dataset: dimension-employee
             name_column: is_salesperson
@@ -25,7 +25,7 @@ hierarchies:
               - is_salesperson
             sort_column: is_salesperson
 
-          - unique_name: d_Preferred_Name
+          - unique_name: Preferred Name
             label: Preferred Name
             folder: Employees
             dataset: dimension-employee
