@@ -1,4 +1,4 @@
-unique_name: m_Quantity_On_Hand_sum
+unique_name: Stock Quantity On Hand
 object_type: metric
 label: Stock Quantity On Hand
 calculation_method: sum

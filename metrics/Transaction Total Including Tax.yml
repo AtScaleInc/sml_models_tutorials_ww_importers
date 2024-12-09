@@ -1,8 +1,8 @@
-unique_name: m_Sale_Total_Including_Tax_sum
+unique_name: Transaction Total Including Tax
 object_type: metric
-label: Sale Total Including Tax
+label: Transaction Total Including Tax
 calculation_method: sum
 format: "$#,##0;($#,##0)"
-dataset: fact_sale
+dataset: fact_transaction
 column: total_including_tax
 unrelated_dimensions_handling: repeat

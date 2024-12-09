@@ -1,8 +1,8 @@
-unique_name: Order_Total_Excluding_Tax_sum
+unique_name: Order Tax Amount
 object_type: metric
-label: Order Total Excluding Tax
+label: Order Tax Amount
 calculation_method: sum
 format: "$#,##0;($#,##0)"
 dataset: fact_order
-column: total_excluding_tax
+column: tax_amount
 unrelated_dimensions_handling: repeat

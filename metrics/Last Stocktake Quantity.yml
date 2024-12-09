@@ -1,4 +1,4 @@
-unique_name: m_Last_Stocktake_Quantity_sum
+unique_name: Last Stocktake Quantity
 object_type: metric
 label: Last Stocktake Quantity
 calculation_method: sum

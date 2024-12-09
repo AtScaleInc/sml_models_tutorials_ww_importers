@@ -1,4 +1,4 @@
-unique_name: m_Transaction_Tax_Amount_sum
+unique_name: Transaction Tax Amount
 object_type: metric
 label: Transaction Tax Amount
 calculation_method: sum

@@ -1,8 +1,8 @@
-unique_name: m_Outstanding_Balance_sum
+unique_name: Transaction Total Excluding Tax
 object_type: metric
-label: Outstanding Balance
+label: Transaction Total Excluding Tax
 calculation_method: sum
 format: "$#,##0;($#,##0)"
 dataset: fact_transaction
-column: outstanding_balance
+column: total_excluding_tax
 unrelated_dimensions_handling: repeat

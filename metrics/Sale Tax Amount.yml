@@ -1,8 +1,8 @@
-unique_name: m_Total_Dry_Items_sum
+unique_name: Sale Tax Amount
 object_type: metric
-label: Total Dry Items
+label: Sale Tax Amount
 calculation_method: sum
-format: "#,##0"
+format: "$#,##0;($#,##0)"
 dataset: fact_sale
-column: total_dry_items
+column: tax_amount
 unrelated_dimensions_handling: repeat
