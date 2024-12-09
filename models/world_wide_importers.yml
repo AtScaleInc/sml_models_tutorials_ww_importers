@@ -73,8 +73,8 @@ relationships:
         - date_key
     role_play: Movement {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_MOVEMENT_Supplier_MovementSupplier
     from:
       dataset: fact_movement
@@ -91,8 +91,8 @@ relationships:
         - date_key
     role_play: Movement {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_MOVEMENT_Transaction_Type_Movement
     from:
       dataset: fact_movement
@@ -127,8 +127,8 @@ relationships:
         - date_key
     role_play: Transaction {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_TRANSACTION_Payment_Method_Transaction
     from:
       dataset: fact_transaction
@@ -154,8 +154,8 @@ relationships:
         - date_key
     role_play: Transaction {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_TRANSACTION_Transaction_Type
     from:
       dataset: fact_transaction
@@ -215,8 +215,8 @@ relationships:
         - order_date_key
     role_play: Order {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_ORDER_Date_OrderPicked
     from:
       dataset: fact_order
@@ -224,8 +224,8 @@ relationships:
         - picked_date_key
     role_play: Order Picked {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_ORDER_Employee_OrderSalesperson
     from:
       dataset: fact_order
@@ -251,8 +251,8 @@ relationships:
         - order_date_key
     role_play: Order {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_ORDER_Date_OrderPicked_1
     from:
       dataset: fact_order
@@ -260,8 +260,8 @@ relationships:
         - picked_date_key
     role_play: Order Picked {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_SALE_Geography_Sale
     from:
       dataset: fact_sale
@@ -314,8 +314,8 @@ relationships:
         - delivery_date_key
     role_play: Sale Delivery {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_SALE_Date_SaleInvoice
     from:
       dataset: fact_sale
@@ -323,8 +323,8 @@ relationships:
         - invoice_date_key
     role_play: Sale Invoice {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_SALE_Employee_SaleSalesperson
     from:
       dataset: fact_sale
@@ -341,8 +341,8 @@ relationships:
         - delivery_date_key
     role_play: Sale Delivery {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_SALE_Date_SaleInvoice_1
     from:
       dataset: fact_sale
@@ -350,8 +350,8 @@ relationships:
         - invoice_date_key
     role_play: Sale Invoice {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
   - unique_name: FACT_PURCHASE_Stock_Item_Purchase
     from:
       dataset: fact_purchase
@@ -368,8 +368,8 @@ relationships:
         - date_key
     role_play: Purchase {0}
     to:
-      dimension: WW Date
-      level: Fiscal Day - WW
+      dimension: Date
+      level: Fiscal Day
   - unique_name: FACT_PURCHASE_Supplier_PurchaseSupplier
     from:
       dataset: fact_purchase
@@ -386,6 +386,6 @@ relationships:
         - date_key
     role_play: Purchase {0}
     to:
-      dimension: WW Date
-      level: Calendar Day - WW
+      dimension: Date
+      level: Calendar Day
 visible: true
