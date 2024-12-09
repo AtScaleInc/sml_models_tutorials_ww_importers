@@ -64,8 +64,8 @@ relationships:
         - customer_key
     role_play: Movement {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_MOVEMENT_Date_Movement
     from:
       dataset: fact_movement
@@ -109,8 +109,8 @@ relationships:
         - bill_to_customer_key
     role_play: Transaction Bill to {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_TRANSACTION_Customer_Transaction
     from:
       dataset: fact_transaction
@@ -118,8 +118,8 @@ relationships:
         - customer_key
     role_play: Transaction {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_TRANSACTION_Date_Transaction
     from:
       dataset: fact_transaction
@@ -206,8 +206,8 @@ relationships:
         - customer_key
     role_play: Order {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_ORDER_Date_Order
     from:
       dataset: fact_order
@@ -296,8 +296,8 @@ relationships:
         - customer_key
     role_play: Sale {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_SALE_Customer_SaleBillto
     from:
       dataset: fact_sale
@@ -305,8 +305,8 @@ relationships:
         - bill_to_customer_key
     role_play: Sale Bill to {0}
     to:
-      dimension: WW Customer
-      level: Dimension Customer Level
+      dimension: Customer
+      level: Customer
   - unique_name: FACT_SALE_Date_SaleDelivery
     from:
       dataset: fact_sale

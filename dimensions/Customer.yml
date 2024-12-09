@@ -1,23 +1,23 @@
-unique_name: WW Customer
+unique_name: Customer
 object_type: dimension
 label: Customer
 type: standard
 
 hierarchies:
 
-  - unique_name: Dimension Customer Hierarchy
+  - unique_name: Customer
     label: Customer
     folder: Customers
     filter_empty: "yes"
 
     levels:
 
-      - unique_name: Dimension Customer Level
+      - unique_name: Customer Name
 
         secondary_attributes:
 
-          - unique_name: d_category
-            label: Customer category
+          - unique_name: Customer Category
+            label: Customer Category
             folder: Customers
             dataset: dimension-customer
             name_column: category
@@ -25,7 +25,7 @@ hierarchies:
               - category
             sort_column: category
 
-          - unique_name: d_postal_code
+          - unique_name: Customer Postal Code
             label: Customer Postal Code
             folder: Customers
             dataset: dimension-customer
@@ -34,8 +34,8 @@ hierarchies:
               - postal_code
             sort_column: postal_code
 
-          - unique_name: d_primary_contact
-            label: Primary Contact
+          - unique_name: Customer Primary Contact
+            label: Customer Primary Contact
             folder: Customers
             dataset: dimension-customer
             name_column: primary_contact
@@ -45,7 +45,7 @@ hierarchies:
 
 level_attributes:
 
-  - unique_name: Dimension Customer Level
+  - unique_name: Customer Name
     label: Customer Name
     is_unique_key: true
     dataset: dimension-customer
