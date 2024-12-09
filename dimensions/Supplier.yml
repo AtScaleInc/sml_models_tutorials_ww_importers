@@ -1,11 +1,11 @@
-unique_name: WW Supplier
+unique_name: Supplier
 object_type: dimension
 label: Supplier
 type: standard
 
 hierarchies:
 
-  - unique_name: Supplier Hierarchy
+  - unique_name: Supplier
     label: Supplier
     folder: Suppliers
     filter_empty: "yes"
@@ -16,8 +16,8 @@ hierarchies:
 
         secondary_attributes:
 
-          - unique_name: d_category_2
-            label: category
+          - unique_name: Supplier Category
+            label: Supplier Category
             folder: Suppliers
             dataset: supplier
             name_column: category
@@ -25,7 +25,7 @@ hierarchies:
               - category
             sort_column: category
 
-          - unique_name: d_Payment_Days
+          - unique_name: Payment Days
             label: Payment Days
             folder: Suppliers
             dataset: supplier
@@ -34,8 +34,8 @@ hierarchies:
               - payment_days
             sort_column: payment_days
 
-          - unique_name: d_postal_code_2
-            label: Postal Code
+          - unique_name: Supplier Postal Code
+            label: Supplier Postal Code
             folder: Suppliers
             dataset: supplier
             name_column: postal_code
@@ -43,8 +43,8 @@ hierarchies:
               - postal_code
             sort_column: postal_code
 
-          - unique_name: d_primary_contact_2
-            label: Primary Contact
+          - unique_name: Supplier Primary Contact
+            label: Supplier Primary Contact
             folder: Suppliers
             dataset: supplier
             name_column: primary_contact
@@ -52,7 +52,7 @@ hierarchies:
               - primary_contact
             sort_column: primary_contact
 
-          - unique_name: d_Supplier_Reference
+          - unique_name: Supplier Reference
             label: Supplier Reference
             folder: Suppliers
             dataset: supplier
