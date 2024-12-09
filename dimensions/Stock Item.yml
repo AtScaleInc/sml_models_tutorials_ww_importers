@@ -1,12 +1,12 @@
-unique_name: WW Stock Item
+unique_name: Stock Item
 object_type: dimension
 label: Stock Item
 type: standard
 
 hierarchies:
 
-  - unique_name: Stock Items
-    label: Stock Items
+  - unique_name: Stock Item
+    label: Stock Item
     folder: Stock
     filter_empty: "yes"
 
@@ -16,7 +16,7 @@ hierarchies:
 
         secondary_attributes:
 
-          - unique_name: d_Barcode
+          - unique_name: Bar Code
             label: Bar Code
             folder: Stock
             dataset: stockitem
@@ -25,7 +25,7 @@ hierarchies:
               - barcode
             sort_column: barcode
 
-          - unique_name: d_Brand
+          - unique_name: Brand
             label: Brand
             folder: Stock
             dataset: stockitem
@@ -34,7 +34,7 @@ hierarchies:
               - brand
             sort_column: brand
 
-          - unique_name: d_Buying_Package
+          - unique_name: Buying Package
             label: Buying Package
             folder: Stock
             dataset: stockitem
@@ -43,7 +43,7 @@ hierarchies:
               - buying_package
             sort_column: buying_package
 
-          - unique_name: d_Color
+          - unique_name: Color
             label: Color
             folder: Stock
             dataset: stockitem
@@ -52,7 +52,7 @@ hierarchies:
               - color
             sort_column: color
 
-          - unique_name: d_Is_Chiller_Stock
+          - unique_name: Is Chiller Stock
             label: Is Chiller Stock
             folder: Stock
             dataset: stockitem
@@ -61,7 +61,7 @@ hierarchies:
               - is_chiller_stock
             sort_column: is_chiller_stock
 
-          - unique_name: d_Lead_Time_Days
+          - unique_name: Lead Time Days
             label: Lead Time Days
             folder: Stock
             dataset: stockitem
@@ -70,7 +70,7 @@ hierarchies:
               - lead_time_days
             sort_column: lead_time_days
 
-          - unique_name: d_Quantity_Per_Outer
+          - unique_name: Quantity Per Outer
             label: Quantity Per Outer
             folder: Stock
             dataset: stockitem
@@ -79,7 +79,7 @@ hierarchies:
               - quantity_per_outer
             sort_column: quantity_per_outer
 
-          - unique_name: d_Recommended_Retail_Price
+          - unique_name: Recommended Retail Price
             label: Recommended Retail Price
             folder: Stock
             dataset: stockitem
@@ -88,7 +88,7 @@ hierarchies:
               - recommended_retail_price
             sort_column: recommended_retail_price
 
-          - unique_name: d_Selling_Package
+          - unique_name: Selling Package
             label: Selling Package
             folder: Stock
             dataset: stockitem
@@ -97,7 +97,7 @@ hierarchies:
               - selling_package
             sort_column: selling_package
 
-          - unique_name: d_Size
+          - unique_name: Size
             label: Size
             folder: Stock
             dataset: stockitem
@@ -106,7 +106,7 @@ hierarchies:
               - size
             sort_column: size
 
-          - unique_name: d_Tax_Rate
+          - unique_name: Tax Rate
             label: Tax Rate
             folder: Stock
             dataset: stockitem
@@ -115,7 +115,7 @@ hierarchies:
               - tax_rate
             sort_column: tax_rate
 
-          - unique_name: d_Typical_Weight_Per_Unit
+          - unique_name: Typical Weight Per Unit
             label: Typical Weight Per Unit
             folder: Stock
             dataset: stockitem
@@ -124,7 +124,7 @@ hierarchies:
               - typical_weight_per_unit
             sort_column: typical_weight_per_unit
 
-          - unique_name: d_Unit_Price
+          - unique_name: Unit Price
             label: Unit Price
             folder: Stock
             dataset: stockitem
