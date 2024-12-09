@@ -449,5 +449,5 @@ metrics:
   - unique_name: Order Total Excluding Tax
     folder: Orders
 
-  - unique_name: '% Profit'
+  - unique_name: Percent Profit
     folder: Sales
