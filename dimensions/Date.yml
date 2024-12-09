@@ -1,4 +1,4 @@
-unique_name: WW Date
+unique_name: Date
 object_type: dimension
 label: Date
 description: Date Dimension
@@ -6,18 +6,18 @@ type: standard
 
 hierarchies:
 
-  - unique_name: Dimension Date - WW
+  - unique_name: Date
     label: Calendar Date
     folder: Calendar Dates
     filter_empty: "yes"
 
     levels:
 
-      - unique_name: Calendar Year - WW
+      - unique_name: Calendar Year 
 
-      - unique_name: Calendar Month - WW
+      - unique_name: Calendar Month
 
-      - unique_name: Calendar Day - WW
+      - unique_name: Calendar Day
 
   - unique_name: Fiscal Date
     label: Fiscal Date
@@ -26,15 +26,15 @@ hierarchies:
 
     levels:
 
-      - unique_name: Fiscal Year - WW
+      - unique_name: Fiscal Year 
 
-      - unique_name: Fiscal Month - WW
+      - unique_name: Fiscal Month
 
-      - unique_name: Fiscal Day - WW
+      - unique_name: Fiscal Day
 
 level_attributes:
 
-  - unique_name: Calendar Day - WW
+  - unique_name: Calendar Day
     label: Calendar Day
     description: Date Dimension
     is_unique_key: true
@@ -44,7 +44,7 @@ level_attributes:
       - date
     sort_column: date
 
-  - unique_name: Calendar Month - WW
+  - unique_name: Calendar Month
     label: Calendar Month
     dataset: dimension-date
     name_column: calendar_month_label
@@ -52,7 +52,7 @@ level_attributes:
       - calendar_month_label
     sort_column: year_month
 
-  - unique_name: Calendar Year - WW
+  - unique_name: Calendar Year 
     label: Calendar Year
     dataset: dimension-date
     name_column: calendar_year_label
@@ -60,7 +60,7 @@ level_attributes:
       - calendar_year_label
     sort_column: calendar_year_label
 
-  - unique_name: Fiscal Day - WW
+  - unique_name: Fiscal Day
     label: Fiscal Day
     dataset: dimension-date
     name_column: date
@@ -68,7 +68,7 @@ level_attributes:
       - date
     sort_column: date
 
-  - unique_name: Fiscal Month - WW
+  - unique_name: Fiscal Month
     label: Fiscal Month
     dataset: dimension-date
     name_column: fiscal_month_label
@@ -76,7 +76,7 @@ level_attributes:
       - fiscal_month_label
     sort_column: year_month
 
-  - unique_name: Fiscal Year - WW
+  - unique_name: Fiscal Year 
     label: Fiscal Year
     dataset: dimension-date
     name_column: fiscal_year_label
