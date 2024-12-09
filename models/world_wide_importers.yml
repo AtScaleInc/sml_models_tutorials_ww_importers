@@ -82,7 +82,7 @@ relationships:
         - supplier_key
     role_play: Movement Supplier {0}
     to:
-      dimension: WW Supplier
+      dimension: Supplier
       level: Supplier
   - unique_name: FACT_MOVEMENT_Date_Movement_1
     from:
@@ -145,7 +145,7 @@ relationships:
         - supplier_key
     role_play: Transaction Supplier {0}
     to:
-      dimension: WW Supplier
+      dimension: Supplier
       level: Supplier
   - unique_name: FACT_TRANSACTION_Date_Transaction_1
     from:
@@ -377,7 +377,7 @@ relationships:
         - supplier_key
     role_play: Purchase Supplier {0}
     to:
-      dimension: WW Supplier
+      dimension: Supplier
       level: Supplier
   - unique_name: FACT_PURCHASE_Date_Purchase_1
     from:
