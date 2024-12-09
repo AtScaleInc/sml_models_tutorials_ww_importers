@@ -12,7 +12,7 @@ hierarchies:
 
     levels:
 
-      - unique_name: Customer Name
+      - unique_name: Customer
 
         secondary_attributes:
 
@@ -45,7 +45,7 @@ hierarchies:
 
 level_attributes:
 
-  - unique_name: Customer Name
+  - unique_name: Customer
     label: Customer Name
     is_unique_key: true
     dataset: dimension-customer
