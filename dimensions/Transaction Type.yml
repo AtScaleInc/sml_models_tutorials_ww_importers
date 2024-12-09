@@ -1,4 +1,4 @@
-unique_name: WW Transaction Type
+unique_name: Transaction Type
 object_type: dimension
 label: Transaction Type
 type: standard
@@ -12,12 +12,12 @@ hierarchies:
 
     levels:
 
-      - unique_name: Transaction Type Level
+      - unique_name: Transaction Type
 
 level_attributes:
 
-  - unique_name: Transaction Type Level
-    label: Transaction Type Level
+  - unique_name: Transaction Type
+    label: Transaction Type
     is_unique_key: true
     dataset: transactiontype
     name_column: transaction_type

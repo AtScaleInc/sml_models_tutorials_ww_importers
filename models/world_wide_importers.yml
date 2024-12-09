@@ -100,8 +100,8 @@ relationships:
         - transaction_type_key
     role_play: Movement {0}
     to:
-      dimension: WW Transaction Type
-      level: Transaction Type Level
+      dimension: Transaction Type
+      level: Transaction Type
   - unique_name: FACT_TRANSACTION_Customer_TransactionBillto
     from:
       dataset: fact_transaction
@@ -162,8 +162,8 @@ relationships:
       join_columns:
         - transaction_type_key
     to:
-      dimension: WW Transaction Type
-      level: Transaction Type Level
+      dimension: Transaction Type
+      level: Transaction Type
   - unique_name: FACT_STOCKHOLDING_Stock_Item
     from:
       dataset: fact_stockholding
