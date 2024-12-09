@@ -55,7 +55,7 @@ relationships:
         - stock_item_key
     role_play: Movement {0}
     to:
-      dimension: WW Stock Item
+      dimension: Stock Item
       level: Stock Item
   - unique_name: FACT_MOVEMENT_Customer_Movement
     from:
@@ -136,8 +136,8 @@ relationships:
         - payment_method_key
     role_play: Transaction {0}
     to:
-      dimension: WW Payment Method
-      level: Payment Method Level
+      dimension: Payment Method
+      level: Payment Method
   - unique_name: FACT_TRANSACTION_Supplier_TransactionSupplier
     from:
       dataset: fact_transaction
@@ -170,7 +170,7 @@ relationships:
       join_columns:
         - stock_item_key
     to:
-      dimension: WW Stock Item
+      dimension: Stock Item
       level: Stock Item
   - unique_name: FACT_ORDER_Geography_Order
     from:
@@ -188,7 +188,7 @@ relationships:
         - stock_item_key
     role_play: Order {0}
     to:
-      dimension: WW Stock Item
+      dimension: Stock Item
       level: Stock Item
   - unique_name: FACT_ORDER_Geography_Order_1
     from:
@@ -278,7 +278,7 @@ relationships:
         - stock_item_key
     role_play: Sale {0}
     to:
-      dimension: WW Stock Item
+      dimension: Stock Item
       level: Stock Item
   - unique_name: FACT_SALE_Geography_Sale_1
     from:
@@ -359,7 +359,7 @@ relationships:
         - stock_item_key
     role_play: Purchase {0}
     to:
-      dimension: WW Stock Item
+      dimension: Stock Item
       level: Stock Item
   - unique_name: FACT_PURCHASE_Date_Purchase
     from:
