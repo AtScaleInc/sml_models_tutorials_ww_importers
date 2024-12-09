@@ -1,8 +1,8 @@
-unique_name: supplier
+unique_name: supplier_dataset
 object_type: dataset
-label: supplier
+label: supplier_dataset
 connection_id: Connection - WW
-table: supplier
+table: supplier_dataset
 
 columns:
   - name: category
@@ -15,7 +15,7 @@ columns:
     data_type: string
   - name: primary_contact
     data_type: string
-  - name: supplier
+  - name: supplier_dataset
     data_type: string
   - name: supplier_key
     data_type: long
