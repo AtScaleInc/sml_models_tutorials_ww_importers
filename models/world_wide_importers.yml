@@ -15,7 +15,7 @@ metrics:
     folder: Purchases
   - unique_name: Outstanding Balance
     folder: Transactions
-  - unique_name: m_Profit_sum
+  - unique_name: Profit
     folder: Sales
   - unique_name: Purchase Ordered Quantity
     folder: Purchases
